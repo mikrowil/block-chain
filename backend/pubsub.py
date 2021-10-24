@@ -10,8 +10,8 @@ from backend.blockchain.block import Block
 from backend.blockchain.blockchain import Blockchain
 from backend.wallet.transaction import Transaction
 
-publish_key = 'pub-c-66a5c41a-e265-4c37-b5b3-588f17483899'
-subscribe_key = 'sub-c-ddc1e1c6-31fc-11ec-9656-aead1bf6b4d7'
+publish_key = ''
+subscribe_key = ''
 
 pnc_config = PNConfiguration()
 pnc_config.publish_key = publish_key
