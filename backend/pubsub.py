@@ -1,4 +1,4 @@
-import os
+from backend.pyenv import SUB_KEY, PUB_KEY
 import time
 from abc import ABC
 
@@ -10,8 +10,8 @@ from backend.blockchain.block import Block
 from backend.blockchain.blockchain import Blockchain
 from backend.wallet.transaction import Transaction
 
-publish_key = ''
-subscribe_key = ''
+publish_key = PUB_KEY
+subscribe_key = SUB_KEY
 
 pnc_config = PNConfiguration()
 pnc_config.publish_key = publish_key
